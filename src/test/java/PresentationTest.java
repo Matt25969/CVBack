@@ -9,42 +9,42 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class PresentationTest {
 
-	WebDriver driver;
-	String url;
+	//WebDriver driver;
+	//String url;
 
-	@Before
-	public void setup() {
+	//@Before
+	//public void setup() {
 
-		System.setProperty("webdriver.chrome.driver", "C:/Development/web_driver/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:/Development/web_driver/chromedriver.exe");
 
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
 
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 
-		url = "http://35.242.137.151:4010/";
+		//url = "http://35.242.137.151:4010/";
 
-	}
+	//}
 
-	@Test
-	public void firstTest() throws InterruptedException {
+	//@Test
+	//public void firstTest() throws InterruptedException {
 
-		driver.get(url);
+		//driver.get(url);
 
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
-		driver.findElement(By.xpath("//*[@id=\"dropdown\"]")).click();
+		//driver.findElement(By.xpath("//*[@id=\"dropdown\"]")).click();
 
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
-		driver.findElement(By.xpath("//*[@id=\"dropdown\"]")).click();
+		//driver.findElement(By.xpath("//*[@id=\"dropdown\"]")).click();
 
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 
-	}
+	//}
 
-	@After
-	public void tearDown() {
-		driver.close();
-	}
+	//@After
+	//public void tearDown() {
+//		driver.close();
+	//}
 
 }
