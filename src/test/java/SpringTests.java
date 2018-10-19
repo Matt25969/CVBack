@@ -23,7 +23,7 @@ public class SpringTests {
 	@Test
 	public void metaTest() {
 
-		assertEquals("[Matthew, Hunt, 5bbb70baa7b11b000132bc14, Matthew, hghghg, 5bbb79b3a7b11b000132bc16]",
+		assertEquals("[Matthew, Hunt, 5bbb70baa7b11b000132bc14, Matthew, hghghg, 5bbb79b3a7b11b000132bc16, Clive, Smith, 5bc6f3bfa7b11b000132bc18]",
 				fuc.getAllMeta().toString());
 
 		System.out.println(fuc.getAllMeta());
@@ -33,7 +33,7 @@ public class SpringTests {
 	@Test
 	public void allTest() {
 
-		assertEquals("[MatthewHuntCV.docx, MatthewhghghgCV.docx]",
+		assertEquals("[MatthewHuntCV.docx, MatthewhghghgCV.docx, CliveSmithCV.docx]",
 				fuc.getAll().toString());
 
 		System.out.println(fuc.getAll());
